@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    font-family: chivo;
+    font-size: 13px;
+ }
+ header{
+    width: 100%;
+    font-size: 19px;
+ 
+ }
+ 
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+ 
+ }
+ div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 18%;
+    padding: 10px;
+    margin: 15px 5px;
+    text-align: left;
+    font-size: 16px;
+ }
+ div:hover{
+     transition: all 0.3s;
+     transform: scale(1.1);
+ }
+ 
+ img{
+    width: 150px;
+    height: 150px;
+ }
+
+ span{
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: flex-start;
+ }
+ 
+ button{
+    border: 1px solid #d12222;   
+    border-radius: 5px;
+    background-color: #fff;
+    color: #d12222;
+    font-size: 12px;
+    height: 25px; 
+    width: 80px;
+    margin: 7px  0px;
+ }
+ button:hover{
+     transition: all 0.5s;
+     background-color: #d12222;
+     color:white;
+ }
+ .star{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+ }
+ 

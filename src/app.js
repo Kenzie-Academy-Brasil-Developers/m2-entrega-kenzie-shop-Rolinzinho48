@@ -37,8 +37,8 @@ const construir =(obj)=>{
   
     //adiciona os elementos na tela
     div.append(img,p,span,btn)
-    div.style.border = "1px solid black"
-    document.querySelector('body').append(div)
+
+    document.querySelector('main').append(div)
 
 }
 
